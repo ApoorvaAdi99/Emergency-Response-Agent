@@ -1,4 +1,4 @@
-# 911 Incident Reporting Agent
+# Incident Reporting Assistant
 
 This project implements an AI-powered agent that processes 911 call recordings to generate structured **Incident Reports**.
 
@@ -79,4 +79,5 @@ python test_incident.py path/to/your/audio.mp3 --email
 - `file`: Audio file (multipart/form-data)
 - `provider`: `gemini` (default) or `openai` (query param)
 - `send_email`: `true` or `false` (default `false`) (query param)
+
 
